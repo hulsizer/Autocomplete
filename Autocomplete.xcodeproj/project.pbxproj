@@ -22,6 +22,11 @@
 		AFF3B827189FFFFC00AECDCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF3B806189FFFFC00AECDCE /* UIKit.framework */; };
 		AFF3B82F189FFFFC00AECDCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFF3B82D189FFFFC00AECDCE /* InfoPlist.strings */; };
 		AFF3B831189FFFFC00AECDCE /* AutocompleteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF3B830189FFFFC00AECDCE /* AutocompleteTests.m */; };
+		AFF3B83C18A0006B00AECDCE /* CLMAutocompleteView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF3B83B18A0006B00AECDCE /* CLMAutocompleteView.m */; };
+		AFF3B83E18A0008D00AECDCE /* CLMAutocompleteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFF3B83D18A0008D00AECDCE /* CLMAutocompleteView.xib */; };
+		AFF3B84118A001F700AECDCE /* CLMAutocompleteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF3B84018A001F700AECDCE /* CLMAutocompleteCell.m */; };
+		AFF3B84318A0021000AECDCE /* CLMAutocompleteExampleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFF3B84218A0021000AECDCE /* CLMAutocompleteExampleCell.xib */; };
+		AFF3B84618AAEF5000AECDCE /* CLMAutocompleteTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF3B84518AAEF5000AECDCE /* CLMAutocompleteTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,14 @@
 		AFF3B82C189FFFFC00AECDCE /* AutocompleteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutocompleteTests-Info.plist"; sourceTree = "<group>"; };
 		AFF3B82E189FFFFC00AECDCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AFF3B830189FFFFC00AECDCE /* AutocompleteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutocompleteTests.m; sourceTree = "<group>"; };
+		AFF3B83A18A0006B00AECDCE /* CLMAutocompleteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMAutocompleteView.h; sourceTree = "<group>"; };
+		AFF3B83B18A0006B00AECDCE /* CLMAutocompleteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMAutocompleteView.m; sourceTree = "<group>"; };
+		AFF3B83D18A0008D00AECDCE /* CLMAutocompleteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLMAutocompleteView.xib; sourceTree = "<group>"; };
+		AFF3B83F18A001F700AECDCE /* CLMAutocompleteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMAutocompleteCell.h; sourceTree = "<group>"; };
+		AFF3B84018A001F700AECDCE /* CLMAutocompleteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMAutocompleteCell.m; sourceTree = "<group>"; };
+		AFF3B84218A0021000AECDCE /* CLMAutocompleteExampleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLMAutocompleteExampleCell.xib; sourceTree = "<group>"; };
+		AFF3B84418AAEF5000AECDCE /* CLMAutocompleteTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMAutocompleteTextView.h; sourceTree = "<group>"; };
+		AFF3B84518AAEF5000AECDCE /* CLMAutocompleteTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMAutocompleteTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +135,14 @@
 				AFF3B81B189FFFFC00AECDCE /* CLMViewController.m */,
 				AFF3B81D189FFFFC00AECDCE /* Images.xcassets */,
 				AFF3B809189FFFFC00AECDCE /* Supporting Files */,
+				AFF3B83A18A0006B00AECDCE /* CLMAutocompleteView.h */,
+				AFF3B83B18A0006B00AECDCE /* CLMAutocompleteView.m */,
+				AFF3B83D18A0008D00AECDCE /* CLMAutocompleteView.xib */,
+				AFF3B83F18A001F700AECDCE /* CLMAutocompleteCell.h */,
+				AFF3B84018A001F700AECDCE /* CLMAutocompleteCell.m */,
+				AFF3B84218A0021000AECDCE /* CLMAutocompleteExampleCell.xib */,
+				AFF3B84418AAEF5000AECDCE /* CLMAutocompleteTextView.h */,
+				AFF3B84518AAEF5000AECDCE /* CLMAutocompleteTextView.m */,
 			);
 			path = Autocomplete;
 			sourceTree = "<group>";
@@ -232,6 +253,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFF3B84318A0021000AECDCE /* CLMAutocompleteExampleCell.xib in Resources */,
+				AFF3B83E18A0008D00AECDCE /* CLMAutocompleteView.xib in Resources */,
 				AFF3B819189FFFFC00AECDCE /* Main_iPad.storyboard in Resources */,
 				AFF3B81E189FFFFC00AECDCE /* Images.xcassets in Resources */,
 				AFF3B816189FFFFC00AECDCE /* Main_iPhone.storyboard in Resources */,
@@ -254,7 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFF3B84618AAEF5000AECDCE /* CLMAutocompleteTextView.m in Sources */,
 				AFF3B80F189FFFFC00AECDCE /* main.m in Sources */,
+				AFF3B84118A001F700AECDCE /* CLMAutocompleteCell.m in Sources */,
+				AFF3B83C18A0006B00AECDCE /* CLMAutocompleteView.m in Sources */,
 				AFF3B81C189FFFFC00AECDCE /* CLMViewController.m in Sources */,
 				AFF3B813189FFFFC00AECDCE /* CLMAppDelegate.m in Sources */,
 			);
@@ -475,6 +501,7 @@
 				AFF3B836189FFFFC00AECDCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFF3B837189FFFFC00AECDCE /* Build configuration list for PBXNativeTarget "AutocompleteTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +510,7 @@
 				AFF3B839189FFFFC00AECDCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
